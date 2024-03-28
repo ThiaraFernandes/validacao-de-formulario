@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de inscrição</title>
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css">
+  </head>
+  <body>
+    <main class="main">
+      <div class="informacoes">
+        <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+        <p>
+          Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+        </p>
+      </div>
+
+      <form class="inputs">
+        <input type="text" class="input-text" placeholder="Nome completo *" required />
+        <span class="span">campo obrigatório</span>
+
+        <input type="email" class="input-text" placeholder="Email *" required />
+        <span class="span">campo obrigatório</span>
+
+        <input type="number" class="input-text" placeholder="Telefone *" required/>
+        <span class="span">campo obrigatório</span>
+
+        <textarea class="input-text mensagem" placeholder="Mensagem *"
+        ></textarea>
+        <span class="span">campo obrigatório</span>
+
+        <p class="campo-obrigatorio">*campos obrigatórios</p>
+
+        <input type="submit" id="botao" value="Enviar" />
+      </form>
+    </main>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

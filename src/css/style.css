@@ -1,0 +1,108 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(../imagem/bg-repeat.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+   
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 95%;
+}
+
+.informacoes{
+    margin: 60px;
+    padding: 30px;
+}
+
+.informacoes h1{
+    font-size: 24.5px;
+    font-weight: 900;
+    color: #fff;
+    width: 287.25px ;
+    margin-bottom: 11px;
+    flex-wrap: wrap;
+}
+
+.informacoes p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    width: 300px;
+}
+
+.inputs{
+    background-color: #fff;
+    width: 400px;
+    height: auto;
+    padding: 15px;
+    border: none;
+}
+
+.span{
+    color: #F52E2E;
+    font-size: 8px;
+    font-weight: 400;
+    padding: 2px;
+    display: none;
+}
+
+.input-text{
+    width: 100%;
+    height: 35.11px;
+    margin: 5px 0;
+    border: 1px solid #000;
+    border-radius: 5px; 
+    padding: 5px;
+}
+
+.input-text.mensagem{
+    height: 100px;
+    padding: 2px;
+}
+
+.input ::placeholder{
+    font-size: 15px;
+    padding: 8px;
+}
+
+.input .campo-obrigatorio{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+#botao{
+    width: 100% ;
+    height: 41.13px;
+    border-radius: 5px ;
+    background: #3CCC87;
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.botao a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.campo-preenchido{
+    border: 1px solid #00C22B;
+}
+
+.campo-nao-preenchido{
+    border: 1px solid #F52E2E;
+}
+
